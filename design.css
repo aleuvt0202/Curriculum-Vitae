@@ -1,0 +1,91 @@
+*{
+	font-family: 'PlayfairDisplay';
+	background-color: #F8F8FF;
+	scroll-behavior: smooth;
+	
+}
+
+p{
+	font-size: 20px;
+}
+
+h1{
+	font-size: 30px;
+}
+.center{
+	text-align: center;
+
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+.img{
+	background: url('portret.jpg')no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 60%;
+	height: 500px;
+	border-radius: 30%;
+	
+}
+
+.img:hover{
+	background: url('poza2 (2).jpeg')no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 60%;
+	height: 500px;
+	border-radius: 30%;
+	
+}
+
+.box{
+	box-sizing: border-box;
+}
+
+nav a{
+   padding: 0 14px;
+}
+
+article{
+	float: left;
+	height: 70px;
+	width: 60%;
+	padding:5%;
+}
+
+aside{
+	float: right;
+	text-align: center;
+	height: 300px;
+	width: 50%;
+	padding-right: 5%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-top: 10%;
+}
+
+.stanga{
+	float:left;
+	padding-left: 5%;
+	
+}
+
+.dreapta{
+	padding-top: 10px;
+	padding-right: 10%;
+	float: right;
+}
+
+.container{
+	padding-bottom: 19%;
+}
+
